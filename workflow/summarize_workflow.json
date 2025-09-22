@@ -1,0 +1,13 @@
+{
+  "name":"summarize",
+  "tasks":[
+    {
+      "type":"http",
+      "name":"summarize",
+      "request":{
+        "method":"POST",
+        "url":"https://cloudflare-ai-assignment.workers.dev/api/summarize"
+      }
+    }
+  ]
+}
